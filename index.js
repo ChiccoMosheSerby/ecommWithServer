@@ -11,13 +11,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 const products = require("./Routes/products");
 app.use("/products", products);
-app.get("/*", function (req, res) {
-  res.sendFile(path.join(__dirname, "/public/index.html"), function (err) {
-    if (err) {
-      res.status(500).send(err);
-    }
-  });
-});
 
 let port = process.env.PORT || 2000;
 app.listen(port, function () {
