@@ -4,6 +4,7 @@ module.exports = [
     title: "test product 1",
     details: "Exercitation tempor esse minim veniam dolor.",
     price: 180,
+    qtt: 2,
     fullDetails:
       "Magna in pariatur duis labore laborum elit. Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -13,7 +14,8 @@ module.exports = [
     id: "2",
     title: "test product 2",
     details: "Gilfo to the hostoi esfsb sfb se.",
-    price: 220,
+    price: 220, 
+    qtt: 0,
     fullDetails:
       "Magna in pariatur duis labore laborum elit. Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src: "https://theleaf.no/wp-content/uploads/2020/06/Product_Lg_Type.jpg",
@@ -23,6 +25,7 @@ module.exports = [
     title: "test product 3",
     details: "Ut et in aute esse do officia laboris velit exercitation.",
     price: 150,
+    qtt: 10,
     fullDetails:
       "Magna in pariatur duis labore laborum elit. Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -33,6 +36,7 @@ module.exports = [
     title: "test product 4",
     details: "Ut et in aute esse do officia laboris velit exercitation.",
     price: 500,
+    qtt: 2,
     fullDetails:
       "H ioghkerfgkp nn in dgnd duis labore laborum elit. Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -43,6 +47,7 @@ module.exports = [
     title: "test product 5",
     details: "Ha stoi Victoya tsoi velit exercitation.",
     price: 190,
+    qtt: 3,
     fullDetails:
       "Ha stoi Victoya tsoi velit exercitation labore laborum elit. Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -53,6 +58,7 @@ module.exports = [
     title: "test product 6",
     details: "Gropa crovi na roka ve moit exercitation.",
     price: 150,
+    qtt: 30,
     fullDetails:
       "Parya kavi nomer . Ea na roka ve moi . pazelay mne udachi vba yu ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src: "https://f4.bcbits.com/img/a1031240034_10.jpg",
@@ -63,6 +69,7 @@ module.exports = [
     title: "test product 7",
     details: "It is not important at all.",
     price: 500,
+    qtt: 30,
     fullDetails:
       " dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -73,6 +80,7 @@ module.exports = [
     title: "test product 8",
     details: "Hel leker tion.",
     price: 190,
+    qtt: 2,
     fullDetails:
       "Medium Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -83,6 +91,7 @@ module.exports = [
     title: "test product 9",
     details: "Sontse svezda poimani",
     price: 150,
+    qtt: 2,
     fullDetails:
       "sheleg lavan al admat exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
