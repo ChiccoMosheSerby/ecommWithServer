@@ -27,3 +27,16 @@ module.exports = router.get("/:id", (req, res) => {
   let selected = selectedProducts[0];
   return res.send({ product: selected, errors });
 });
+module.exports = router.post("/", function (req, res, next) {
+  const requestedData = req.body.ids;
+  let resData = [];
+  for (let i = 0; i < requestedData.length; i++) {
+    const productDetails = productsData.filter(
+      (item) => item.id ==requestedData[i]
+    );
+    resData.push(productDetails[0]);
+  }
+
+  console.log("reqIds:", requestedData);
+  return res.send({ products: resData, errors:[] });
+});

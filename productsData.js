@@ -4,7 +4,9 @@ module.exports = [
     title: "test product 1",
     details: "Exercitation tempor esse minim veniam dolor.",
     price: 180,
-    qtt: 2,
+    qtt: 0,
+
+    category: "Sport",
     fullDetails:
       "Magna in pariatur duis labore laborum elit. Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -14,8 +16,10 @@ module.exports = [
     id: "2",
     title: "test product 2",
     details: "Gilfo to the hostoi esfsb sfb se.",
-    price: 220, 
-    qtt: 0,
+    price: 220,
+    qtt: 2,
+
+    category: "Home",
     fullDetails:
       "Magna in pariatur duis labore laborum elit. Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src: "https://theleaf.no/wp-content/uploads/2020/06/Product_Lg_Type.jpg",
@@ -24,8 +28,10 @@ module.exports = [
     id: "3",
     title: "test product 3",
     details: "Ut et in aute esse do officia laboris velit exercitation.",
-    price: 150,
+    price: 5,
     qtt: 10,
+
+    category: "Paint",
     fullDetails:
       "Magna in pariatur duis labore laborum elit. Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -36,7 +42,9 @@ module.exports = [
     title: "test product 4",
     details: "Ut et in aute esse do officia laboris velit exercitation.",
     price: 500,
-    qtt: 2,
+    qtt: 1,
+
+    category: "Web Development",
     fullDetails:
       "H ioghkerfgkp nn in dgnd duis labore laborum elit. Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -47,7 +55,9 @@ module.exports = [
     title: "test product 5",
     details: "Ha stoi Victoya tsoi velit exercitation.",
     price: 190,
-    qtt: 3,
+    qtt: 10,
+
+    category: "Web Development",
     fullDetails:
       "Ha stoi Victoya tsoi velit exercitation labore laborum elit. Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -58,7 +68,9 @@ module.exports = [
     title: "test product 6",
     details: "Gropa crovi na roka ve moit exercitation.",
     price: 150,
-    qtt: 30,
+    qtt: 0,
+
+    category: "NBA",
     fullDetails:
       "Parya kavi nomer . Ea na roka ve moi . pazelay mne udachi vba yu ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src: "https://f4.bcbits.com/img/a1031240034_10.jpg",
@@ -69,7 +81,9 @@ module.exports = [
     title: "test product 7",
     details: "It is not important at all.",
     price: 500,
-    qtt: 30,
+    qtt: 2,
+
+    category: "Paint",
     fullDetails:
       " dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -80,7 +94,9 @@ module.exports = [
     title: "test product 8",
     details: "Hel leker tion.",
     price: 190,
-    qtt: 2,
+    qtt: 5,
+
+    category: "food",
     fullDetails:
       "Medium Consequat sit nisi dolor commodo quis veniam officia. Ea pariatur ut proident laborum quis exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
@@ -91,10 +107,24 @@ module.exports = [
     title: "test product 9",
     details: "Sontse svezda poimani",
     price: 150,
-    qtt: 2,
+    qtt: 8,
+
+    category: "Music",
     fullDetails:
       "sheleg lavan al admat exercitation culpa esse adipisicing. Elit consectetur amet qui dolor proident id duis ex occaecat qui sint.",
     src:
       "https://media.npr.org/assets/img/2012/03/08/davebrubeck_wide-5447041d2ec8631c30aed50f3abedc6bee6cc719.jpg?s=1400",
+  },
+  {
+    id: "10",
+    title: "test product 10",
+    details: "NBA svezda poimani",
+    price: 150,
+    qtt: 10,
+    category: "Yoga",
+    fullDetails:
+      "NBA lavan al admat NBA culpa esse NBA. NBA its in the game!  proident id duis ex occaecat qui sint.",
+    src:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/NBA_75th_anniversary_logo.svg/1200px-NBA_75th_anniversary_logo.svg.png",
   },
 ];
